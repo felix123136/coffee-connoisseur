@@ -1,7 +1,7 @@
 /** Mobile first development **/
 
 .container {
-  margin-bottom: 3rem /* 48px */;
+  margin-bottom: 2rem /* 224px */;
 }
 
 .main {
@@ -22,8 +22,8 @@
 .cardLayout {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
-  column-gap: 1.5rem /* 24px */;
-  row-gap: 1.5rem /* 24px */;
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
 }
 
 .card {
@@ -43,12 +43,12 @@
 }
 
 /** Breakpoints:
-  sm: min-width: 640px;
-  md: min-width: 768px;
-  lg: min-width: 1024px;
-  xl: min-width: 1280px;
-  2xl: min-width: 1536px;
-**/
+	sm: min-width: 640px;
+	md: min-width: 768px;
+	lg: min-width: 1024px;
+	xl: min-width: 1280px;
+	2xl: min-width: 1536px;
+  **/
 
 @media (min-width: 640px) {
   .container {
@@ -107,7 +107,6 @@
   .main {
     margin-top: 7rem /* 112px */;
   }
-
   .cardLayout {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }

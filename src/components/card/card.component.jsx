@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 
 import styles from "./card.module.css";
@@ -15,8 +15,8 @@ const Card = ({ id, name, imgUrl }) => {
           <Image
             className={styles.cardImage}
             src={imgUrl}
-            width={260}
-            height={170}
+            width={400}
+            height={225}
             alt={name}
           />
         </div>

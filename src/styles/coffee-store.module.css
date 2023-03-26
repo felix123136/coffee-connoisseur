@@ -47,10 +47,12 @@
     0 25px 50px -12px rgba(0, 0, 0, 0.25);
 
   border-radius: 0.75rem /* 12px */;
-  max-width: 100%;
-  /* height: auto; */
-  vertical-align: middle;
   border-style: none;
+  display: block;
+  max-width: 400px;
+  max-height: 267px;
+  width: auto;
+  height: auto;
 }
 
 .col2 {
